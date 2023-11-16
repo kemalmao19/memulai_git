@@ -24,6 +24,5 @@ for example:
 # create branch
 Branch adalah percabangan dari repositori Git. Branch digunakan untuk mengembangkan fitur baru tanpa mengganggu branch utama.
 ```git branch <branch name>```
-Test
 # change branch 
 ```git checkout <branch name>```
