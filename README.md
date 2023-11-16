@@ -11,13 +11,17 @@ pemberian messege bergantung scope & section.
 section => macam2 seperti chore, fix, style, feat.
 for example:
 ```git commit -m "chore(codebase): <message>"```
+
 ```git commit -m "feat(auth): adding login UI"```
+
 ```git commit -m "bug(auth): forgot password feature fixed"```
 
 # melihat list commit
 ```git log```
+
 # callback 
 ```git reset --hard <hash commit>```
+
 # cancel changes
 ```git checkout (file)```
 
@@ -26,3 +30,9 @@ Branch adalah percabangan dari repositori Git. Branch digunakan untuk mengembang
 ```git branch <branch name>```
 # change branch 
 ```git checkout <branch name>```
+# merge branch to main branch
+```git merge <branch name>```
+# delete branch 
+```git branch -d <branch name>```
+
+# gitignore
